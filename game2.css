@@ -1,0 +1,92 @@
+body{
+    font-family:Helvetica, sans-serif;
+}
+.logo{
+    margin-left: 50px;
+    height: 30px;
+
+
+}
+.navbar{
+
+    margin-top: 10px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.head{
+    margin:2px 2x;
+    height: 75px;
+    width:100%;
+    border:1px solid lightgrey;
+
+}
+.log-sign{
+   display:flex;
+   gap:20px;
+   padding-right:200px;
+}
+.log-sign a{
+
+    text-decoration: none;
+    color:black;
+}
+.card{
+    height:350px;
+    width:300px;
+    border:1px solid lightgrey;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.game-img{
+    width:100%;
+    height:75%;
+    border-radius: 15px;
+}
+.details{
+    padding:10px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.ratings-good{
+    text-align: center;
+    padding:2px;
+    background-color: green;
+    color:white;
+    border-radius:15px;
+}
+.Game-list{
+    margin:50px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.srch-bar{
+    width:35%;
+    display:flex;
+}
+.ratings{
+    text-align: center;
+    padding:2px;
+    background-color: green;
+    color:white;
+    border-radius:15px;
+}
+.ratings-moderate{
+    text-align: center;
+    padding:2px;
+    background-color: orange;
+    color:white;
+    border-radius:15px;
+}
+.ratings-worst{
+    text-align: center;
+    padding:2px;
+    background-color:red;
+    color:white;
+    border-radius:15px;
+}
